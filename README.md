@@ -12,7 +12,7 @@ If you're new to collaborating on GitHub, here are the basic steps to get starte
 2. **Clone the Repository**:
    - Once you've accepted the invitation, clone the repository to your local machine using the following command:
      ```
-     git clone <repository-url>
+     git clone https://github.com/YouXuan2010/Computer-Vision.git
      ```
      Replace `<repository-url>` with the URL of the repository.
 
