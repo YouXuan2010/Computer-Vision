@@ -14,7 +14,6 @@ If you're new to collaborating on GitHub, here are the basic steps to get starte
      ```
      git clone https://github.com/YouXuan2010/Computer-Vision.git
      ```
-     Replace `<repository-url>` with the URL of the repository.
 
 3. **Create a Branch**:
    - Before making any changes, create a new branch for your work. Use a descriptive branch name that reflects the feature or bug you're working on:
