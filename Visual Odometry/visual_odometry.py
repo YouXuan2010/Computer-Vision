@@ -240,7 +240,9 @@ def main():
             cur_pose = np.matmul(cur_pose, np.linalg.inv(transf))
         gt_path.append((gt_pose[0, 3], gt_pose[2, 3]))
         estimated_path.append((cur_pose[0, 3], cur_pose[2, 3]))
-    plotting.visualize_paths(gt_path, estimated_path, "Visual Odometry", file_out=os.path.basename(data_dir) + ".html")
+        
+    file_out = os.path.join("results", os.path.basename(data_dir) + ".html")
+    plotting.visualize_paths(gt_path, estimated_path, "Visual Odometry", file_out=file_out)
 
 
 if __name__ == "__main__":
